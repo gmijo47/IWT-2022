@@ -5,4 +5,4 @@
 - [Grupa 3 - Zadatak1](http:/https://fibermedia.eu.org/IWT-2022/Vjezbe1/V1G3.html/ "Grupa 3 - Zadatak1")
 
 #### 21.10.2022
-- [General - Zadatak1](https://fibermedia.eu.org/IWT-2022/V2-General/.html "General - Zadatak1")
+- [General - Zadatak1](https://fibermedia.eu.org/IWT-2022/V2-General.html/ "General - Zadatak1")
