@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <title>
+      Dodatni zadatak Vježbe 3.
+    </title>
+    <style>
+      table, td {
+        border: 1px solid lightgray;
+        border-collapse: collapse;
+      }
+      td.noline{
+        border: 0px solid white;
+      }
+      table {
+        width: 80%;
+      }
+      button {
+        background: #084776;
+        border: none;
+        font-size: 17px;
+        padding: 10px;
+        color: white;
+      }
+      input[type="text"]{
+        height: 4vh;
+        width: 100%
+      }
+      p#title {
+        size: 10px;
+        font-size: 18px;
+        margin-bottom: 3px;
+      }
+      td#box {
+        padding: 20px;
+      }
+      select#nesto {
+        height: 4vh;
+        width: 100%;
+      }
+      td#menu {
+        border: 0px white;
+        font-size: 18px;
+      }
+      td#menu:hover {
+        border: 0px white;
+        background: #084776;
+        color: white;
+      }
+      td#head {
+        padding: 20px
+      }
+      div#iconhead {
+        padding: 5px;
+      }
+      div#iconhead img {
+        padding: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table bgcolor = "#F5F5F5" cellpadding = "5" align = "center">
+        <tr>
+          <td colspan = "2" id = "head">
+            <font size = "6">
+              <p>Odabir datoteke
+              </p>
+            </font>
+        </tr>
+        <tr>
+          <td id = "menu"> 
+            <img src="./img/icon.png" height = "16px" width = "16px">
+            Dodataj datoteku na poslužitelju
+          </td>
+          <td colspan = "2" rowspan = "8" id = "box">
+            <div id = "iconhead" align = "right">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/activity-grid-2.png"/>
+              <img src="https://img.icons8.com/windows/32/000000/grid-3.png"/>
+              <img src="https://img.icons8.com/material-rounded/24/000000/shared-folder.png"/>
+            </div>
+            <br>
+            <p id = "title">
+              Privitak
+            </p>
+            <input type = "file">
+            <p id = "title">
+              Pohrani kao
+            </p>
+            <input type = "text" size = "50">
+            <p id = "title">
+              Autor
+            </p>
+            <input type = "text" placeholder = "Ime i prezime">
+            <p>
+              Licenca
+            </p>
+            <select id = "nesto">
+              <option>Licenca nije zadana
+              </option>
+              <option>MIT licenca
+              </option>
+              <option>GNU licenca
+              </option>
+            </select>
+            <center>
+              <br>
+              <br>
+              <button> Prenesi datoteku na poslužitelj
+              </button>
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <td id = "menu"> 
+            <img src="./img/icon.png" height = "16px" width = "16px">
+            Nedavno korištene datoteke
+          </td>
+        </tr>
+        <tr>
+          <td id = "menu"> 
+            <img src="./img/icon.png" height = "16px" width = "16px">
+            Prenesi datoteku 
+          </td>
+        </tr>
+        <tr>
+          <td id = "menu"> 
+            <img src="./img/icon.png" height = "16px" width = "16px">
+            Preuzimanje sa URL adrese
+          </td>
+        </tr>
+        <tr>
+          <td id = "menu"> 
+            <img src="./img/icon.png" height = "16px" width = "16px">
+            Osobne datoteke
+          </td>
+        </tr>
+        <tr>
+          <td id = "menu"> 
+            <img src="./img/icon.png" height = "16px" width = "16px">
+            Wikimedia
+          </td>
+        </tr>
+        <tr>
+          <td id = "menu"> 
+            <img src="./img/icon.png" height = "16px" width = "16px">
+            SUM Gsuite
+          </td>
+        </tr>
+        <tr>
+          <td id = "menu"> 
+            <img src="./img/icon.png" height = "16px" width = "16px">
+            Baza sadržaja
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
