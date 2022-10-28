@@ -7,3 +7,7 @@
 #### 21.10.2022
 - [General - Zadatak1](https://fibermedia.eu.org/IWT-2022/Vjezbe2/V2-General.html "General - Zadatak1")
 - [General - Dodatni zadatak 1](https://fibermedia.eu.org/IWT-2022/Vjezbe2/V2-Additional.html "General - Dodatni zadatak 1")
+
+#### 28.10.2022
+- [General - Zadatak1](https://fibermedia.eu.org/IWT-2022/Vjezbe3/V3G1.html "General - Zadatak1")
+- [General - Zadatak2](https://fibermedia.eu.org/IWT-2022/Vjezbe3/V3G2.html "General - Zadatak2")
