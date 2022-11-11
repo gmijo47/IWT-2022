@@ -14,4 +14,4 @@
 
 #### 11.11.2022
 
-- [General - Zadatak1](https://fibermedia.eu.org/IWT-2022/Vjezbe3/V4Z1-1.html "General - Zadatak1")
+- [General - Zadatak1](https://fibermedia.eu.org/IWT-2022/Vjezbe4/V4Z1-1.html "General - Zadatak1")
