@@ -1,0 +1,103 @@
+body {
+         background-color: #ece6f2;
+         display: flex;
+         justify-content: center;
+}
+
+div {
+         border: solid 3px purple;
+}
+
+#main {
+ position: absolute;
+ background-color:  #b77ff0;
+ height: 500px;
+ width: 1000px;
+ padding: 10px;
+ padding-bottom: 0px;
+ 
+}
+
+#header {
+         position: absolute;
+         left: 125px;
+         height: 100px;
+         width: 760px;
+}
+#header p{
+         position: absolute;
+         top: 0;
+         left: 270px;
+         z-index: 2;
+         color: purple;;
+         font-size: 2.8em;
+         font-weight: bold
+}
+#header img{
+         width: 760px; 
+         height: 100px;
+}
+
+#left {
+         position: absolute;
+         left: 10px;
+         height: 480px;
+         width: 100px;
+}
+
+#left img {  
+         width: 100px;
+         height: 480px;
+}
+
+#right   {
+         position: absolute;
+         right: 10px;
+         height: 480px;
+         width: 100px;
+
+}
+
+#right img {  
+         width: 100px;
+         height: 480px;
+}
+
+#content-left {
+         background-color:  #b093bf;
+         position: absolute;
+         top: 120px;
+         left: 130px;
+         height: 350px;
+         width: 350px;
+         padding: 10px;
+}
+
+#content-right {
+         background-color:  #b093bf;
+         position: absolute;
+         top: 120px;
+         left: 515px;
+         height: 350px;
+         width: 350px;
+         padding: 10px;
+        
+}
+#prijava td{
+         padding: 5px;
+}
+
+#prijava h1 {
+         align-items: center;
+}
+
+#content-right p{
+         color: white;
+         text-align: center;
+}
+
+#btn{
+         margin-left: 100px;
+}
+
+
