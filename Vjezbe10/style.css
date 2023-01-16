@@ -1,0 +1,91 @@
+body {
+         background-color: red;
+         display: flex;
+         justify-content: center;
+}
+
+#top {
+         background-color: cyan;
+         width: 90%;
+         height: 100px;
+         margin-left: 50px;
+         margin-right: 50px;
+         border-radius: 10px;
+         position: absolute;
+}
+
+#top h1{
+         text-align: center;
+         font-family: 'Courier New', Courier, monospace;
+}
+
+
+.content {
+         margin-top: 120px;
+         width: 300px;
+         height: 300px;
+         margin-left: 3vw;
+         border-radius: 20px;
+         padding: 50px;
+         text-align: center;
+         font-family: 'Courier New', Courier, monospace;
+         font-size: 40px;
+         color: white;
+         font-weight: bold;
+}
+
+@keyframes boja1 {
+         0% {color:white}
+         50% {color: gray;}
+         100% {color: white;}
+         
+}
+
+@keyframes boja2 {
+         0% {color:white}
+         50% {color: #8cde85;}
+         100% {color: white;}
+         
+}
+@keyframes boja3 {
+         0% {color:white}
+         50% {color: #a485de;;}
+         100% {color: white;}
+         
+}
+
+#content-1 {
+         background-color: gray;
+         animation: boja1;
+         animation-iteration-count: infinite;
+         animation-duration: 5s;
+}
+
+#content-2 {
+         background-color: #8cde85;
+         animation: boja2;
+         animation-iteration-count: infinite;
+         animation-duration: 5s;
+}
+
+#content-3 {
+         background-color: #a485de;
+         animation: boja3;
+         animation-iteration-count: infinite;
+         animation-duration: 5s;
+}
+#bottom {
+         background-color: cyan;
+         width: 90%;
+         height: 100px;
+         margin-left: 50px;
+         margin-right: 50px;
+         border-radius: 10px;
+         position: absolute;
+         top: 600px;
+         text-align: center;
+         font-family: 'Courier New', Courier, monospace;
+         font-size: 20px;
+         color: red;
+         font-weight: bold;
+}

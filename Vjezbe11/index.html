@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <link rel="stylesheet" href="./style.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Kalkulator</title>
+</head>
+<body>
+         <h1>Kalkulator</h1>
+         <br>
+         <div id="whole">
+                  <table border="2px">
+                           <tr>
+                                    <td colspan="3"><input id="rez" disabled></td>
+                                    <td><button class="one" onclick="clr()">C</button></td>
+                           </tr>
+                           <tr>
+                                    <td><button class="one" onclick="input('7')">7</button></td>
+                                    <td><button class="one" onclick="input('8')">8</button></td>
+                                    <td><button class="one" onclick="input('9')">9</button></td>
+                                    <td><button class="one" onclick="input('+')">+</button></td>
+                           </tr>
+                           <tr>
+                                    <td><button class="one" onclick="input('4')">4</button></td>
+                                    <td><button class="one" onclick="input('5')">5</button></td>
+                                    <td><button class="one" onclick="input('6')">6</button></td>
+                                    <td><button class="one" onclick="input('-')">-</button></td>
+                           </tr>
+                           <tr>
+                                    <td><button class="one" onclick="input('1')">1</button></td>
+                                    <td><button class="one" onclick="input('2')">2</button></td>
+                                    <td><button class="one" onclick="input('3')">3</button></td>
+                                    <td><button class="one" onclick="input('*')">*</button></td>
+                           </tr>
+                           <tr>
+                                    <td><button class="one" onclick="input('0')">0</button></td>
+                                    <td colspan="2"><button class="double" onclick="calc()">=</button></td>
+                                    <td><button class="one" onclick="input('/')">/</button></td>
+                           </tr>
+                  </table>
+         </div>
+         <script src="script.js"></script>
+</body>
+</html>

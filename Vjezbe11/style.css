@@ -1,0 +1,37 @@
+body{
+         display: flex;
+         justify-content: center;
+         background-color: bisque;
+}
+h1{
+         color: red;
+}
+#whole{
+         position: absolute;
+         margin-top: 120px;
+}
+table tr{
+         border: none;
+}
+table td {
+         border: none;
+}
+.one {
+         height: 60px;
+         width: 60px;
+}
+button {
+         font-size: 20px;
+}
+
+.double {
+         height: 60px;
+         width: 125px;
+}
+
+#rez {
+         height: 55px;
+         border: solid black 1px;
+         background-color: white;
+         width: 190px;
+}
