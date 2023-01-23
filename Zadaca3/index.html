@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <link rel="stylesheet" href="style.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Pretvatrac km/h u m/s</title>
+</head>
+<body>
+         <div id="main">
+                  <h2>Calculator km/h to m/s & m/s to km/h</h2>
+
+                  <input id="value1" class="input" placeholder="3.6">
+                  <select id="unit_val1" class="dropdown">
+                           <option value="kmh">km/h</option>
+                           <option value="ms">m/s</option>
+                  </select>
+
+                  <input id="value2" class="input" placeholder="1" disabled>
+                  <select id="unit_val2" class="dropdown" disabled>
+                           <option value="kmh">km/h</option>
+                           <option selected value="ms">m/s</option>
+                  </select>             
+                  <button id="reset" class="btn" onclick="clr()">Clear all</button>
+                  <button id="calculate" class="btn" onclick="calc()">Calculate</button>
+                  <br clear="all">
+                  <input type="checkbox" id="autocalc" name="calc">
+                  <label for="calc" id="autocalc_title">AutoCalc</label>
+                  
+         </div>
+         <script src="index.js"></script>
+</body>
+</html>
